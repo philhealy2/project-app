@@ -1,35 +1,26 @@
 import React from 'react';
+import './App.css';
 
-class Subjects extends React.Component {
 
-    render() {
-        let list = this.props.modules.map((module, index) => { 
-            return (
-                <tr >
-                    <td>{module.name}</td>
-                    <td>{module.noLectures}</td>
-                    <td>{module.noPracticals}</td>
-                </tr>
-            );
-        });       
-        return (
-            <div>
-                <h1>{`${this.props.course} modules table`} </h1>
-                <table className="table table-bordered">
-                    <thead>
-                        <tr>
-                            <th>Name</th>
-                            <th>No lectures</th>
-                            <th>No practicls</th>
-                        </tr>
-                    </thead>
-                    <tbody >
-                        {list}
-                    </tbody >
-                </table>
-            </div> 
-        );
-    }
+class App extends React.Component{
+
+  render(){
+    return (
+      <header>
+        <div class="header">
+        <h1>Cooking Corner</h1>
+        <img src="cook.png" />
+       <nav id="bar">
+        <ul>
+            <li><a href= "/~pth2/wd1/fixtures.html"> Recipes </a></li>
+            <li><a href= "/~pth2/wd1/clubinfo.html"> Add New</a></li>
+            <li><a href= "shoplist.js"> Shopping List </a></li>
+        </ul>    
+      </nav>
+      </div>
+        </header>
+    );
+  }
 }
 
-export default Subjects;
+export default App;

@@ -8,11 +8,7 @@
 
 html{
   background-color: white;
-  background-color: #0f6d17;
-  width:100%;
 }
-
-
 .App {
   text-align: center;
 
@@ -44,8 +40,29 @@ html{
 }
 
 
+body {
+      padding-top: 20px;
+    }
 
-/*.header h1 {
+    .phones {
+      list-style: none;
+    }
+
+    .thumb {
+      float: left;
+      margin: -0.5em 1em 1.5em 0;
+      padding-bottom: 1em;
+      height: 100px;
+      width: 100px;
+    }
+
+    .phones li {
+      clear: both;
+      height: 115px;
+      padding-top: 15px;
+    }
+
+.header h1 {
   text-align:center;
   color: white;
   font-weight: bold;
@@ -84,11 +101,10 @@ font-weight:bold;
 color:black;
   }
 
-*/
 
-/*.App {
-  
-  width:100%;
+
+App {
+  text-align: center;
 }
 
 .App-logo {
@@ -109,7 +125,7 @@ color:black;
 
 .App-intro {
   font-size: large;
-}*/
+}
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
@@ -120,59 +136,9 @@ color:black;
 
 .header img{
   display: block;
-  width: 20%;
-
-  margin-left:auto;
-  margin-right: auto;
-
-}
-
-.header h1 {
- text-align: center;
-  color: green;
-  font-weight: bold;
-  font-size: 100px;
-  font-family: 'Kalam', sans-serif;
+  width: 25%;
   
-}
-
-.header {
-  border-style: solid;
-    border-width: 0.2px;
-    margin:0.5em;
-    padding:1em;
-    background: white;
-    border-radius: 1em;
-
-}
-
-#bar ul{
-  list-style-type: none;
-  margin:1em;
-  padding:1em;
-  overflow: hidden;
-  background-color: #095910;
-  height:2.5em;
-
-
-}
-#bar li{
-  display: inline;
-  padding:3em;
-  text-align:center;
-  margin-left: auto;
-  margin-right: auto;
-  margin:1em;
-
-}
-
-#bar li a{
-  
-  color:white;
-  text-decoration: underline;
-  width:100%;
-  font-weight: bold;
-  font-family: "lato",sans-serif;
-  font-size: 25px;
+    margin-left:auto;
+    margin-right: auto;
 
 }
