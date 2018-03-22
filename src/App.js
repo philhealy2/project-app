@@ -1,7 +1,9 @@
 import React from 'react';
 import './App.css';
+import add from './elements/add';
+import initialEntries from './info/initial-entries';
 
-
+//creating the header for the main app page. adding in nav bar and links appropriate//
 class App extends React.Component{
 
   render(){
