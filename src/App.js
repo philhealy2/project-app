@@ -1,11 +1,13 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './App.css';
 import add from './elements/add';
-import initialEntries from './info/initial-entries';
+
+
+
 
 //creating the header for the main app page. adding in nav bar and links appropriate//
-class App extends React.Component{
-
+class App extends Component {
+  
   render(){
     return (
       <header>
@@ -14,12 +16,13 @@ class App extends React.Component{
         <img src="cook.png" />
        <nav id="bar">
         <ul>
-            <li><a href= "/~pth2/wd1/fixtures.html"> Recipes </a></li>
-            <li><a href= "/~pth2/wd1/clubinfo.html"> Add New</a></li>
+            <li><a href= "./info/initial-entries.js"> Recipes </a></li>
+            <li><a href= "./elements/add.js"> Add New</a></li>
             <li><a href= "shoplist.js"> Shopping List </a></li>
         </ul>    
       </nav>
       </div>
+      
         </header>
     );
   }

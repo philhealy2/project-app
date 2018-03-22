@@ -1,4 +1,4 @@
-let InitialEntries = [
+let initialEntries = [
   {
     name: 'Carbonara',
     ingredients: [
