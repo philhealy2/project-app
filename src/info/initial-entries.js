@@ -1,13 +1,9 @@
 let initialEntries = [
   {
     name: 'Carbonara',
-    ingredients: [
-      'Pasta',
-      'Cheese',
-      'Eggs',
-      'Bacon',
-      'Philidelphia Cheese'
-    ],
+    ingredients: 
+      'Pasta, Cheese, Eggs, Bacon, Philidelphia Cheese',
+    
     method: "Boil pasta, mix ingredients. Bake in oven"
   },
   {
